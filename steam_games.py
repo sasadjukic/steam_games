@@ -50,7 +50,7 @@ class Csv:
                                                 'Date',
                                                 'Time'])
 
-        #self.output_DictWriter.writeheader()
+        
         for (game, c_players, p_players) in zip(name, current, peak):
             output_DictWriter.writerow({'Game_name' : game,
                                         'Current_players' : c_players,
